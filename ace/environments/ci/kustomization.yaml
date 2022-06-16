@@ -1,9 +1,9 @@
 resources:
-# - buildconfig/sh-tools.yaml
+ - buildconfig/sh-tools.yaml
 # - configmaps/gitops-repo-configmap.yaml
 # - eventlisteners/ace-bar-event-listener.yaml
 # - eventlisteners/ace-integration-server.yaml
-# - imagestreams/sh-tools.yaml
+ - imagestreams/sh-tools.yaml
 # - issuers/prod-ref-ss.yaml
 # - issuers/prod-ref-ss-ca.yaml
 # - pipelines/ace-bar-pipeline.yaml
@@ -15,8 +15,8 @@ resources:
 # - pvc/ace-config-pvc.yaml
 # - pvc/ace-integration-server.yaml
 # - pvc/ace-test-pvc.yaml
-# - roles/custom-images-builder-role.yaml
-# - roles/custom-images-builder-rolebinding.yaml
+ - roles/custom-images-builder-role.yaml
+ - roles/custom-images-builder-rolebinding.yaml
 # - roles/custom-pipeline-clusterrole.yaml
 # - roles/custom-pipeline-clusterrolebinding.yaml
 # - routes/el-ace-integration-server.yaml
