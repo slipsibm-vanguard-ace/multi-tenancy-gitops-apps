@@ -1,0 +1,16 @@
+resources:
+ - ../../base/mq-qm01
+ #- certificates/prod-mq-client-certificate.yaml
+ #- certificates/prod-mq-server-certificate.yaml
+ #- secrets/mq-client-jks-password-secret.yaml
+generatorOptions:
+ disableNameSuffixHash: true
+# We use a configMapGenerator because it allows us to build up the mqsc from regular MQSC files.
+configMapGenerator:
+# Create an MQSC configMap using generic MQSC which will be added to all queue managers and applied during bootstrap.
+- name: mqsc-configmap
+  behavior: create
+  files:
+  - configmap/static-definitions.mqsc
+patchesStrategicMerge:
+ - queuemanager/queuemanager.yaml
