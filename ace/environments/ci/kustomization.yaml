@@ -41,7 +41,7 @@ resources:
 # - tasks/ace-tasks.yaml
 # - tasks/build-bar.yaml
 # - tasks/build-is.yaml
-# - tasks/create-config.yaml
+ - tasks/create-config.yaml
 # - tasks/custom-buildah.yaml
 # - tasks/functional-test-task.yaml
 # - tasks/github-open-pr.yaml
