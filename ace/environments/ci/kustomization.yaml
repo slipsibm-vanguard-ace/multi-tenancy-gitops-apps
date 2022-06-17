@@ -12,7 +12,7 @@ resources:
 # - pipelines/ace-promote-dev-stage-pipeline.yaml
 # - pipelines/ace-promote-stage-prod-pipeline.yaml
 # - pvc/ace-bar-pvc.yaml
-# - pvc/ace-config-pvc.yaml
+ - pvc/ace-config-pvc.yaml
 # - pvc/ace-integration-server.yaml
 # - pvc/ace-test-pvc.yaml
  - roles/custom-images-builder-role.yaml
