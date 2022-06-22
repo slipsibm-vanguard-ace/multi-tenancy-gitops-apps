@@ -1,1 +1,3 @@
-resources: []
+resources:
+  - configurations/create_customer_serverconf_yaml.yaml
+  - configurations/create_customer_policy.yaml
