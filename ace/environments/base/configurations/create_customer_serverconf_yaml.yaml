@@ -1,0 +1,7 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: create-customer-serverconf.yaml
+spec:
+  type: serverconf
+  contents: RGVmYXVsdHM6CiAgcG9saWN5UHJvamVjdDogJ2NyZWF0ZS1jdXN0b21lci1wb2xpY3knCg==
