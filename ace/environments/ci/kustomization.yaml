@@ -60,3 +60,4 @@ resources:
  - secrets/gitops-repo-pk-secret-create-customer-at-github.yaml
  - secrets/ibm-entitlement-key-secret.yaml
  - certificates/prod-ref-ss-ca.yaml
+ - certificates/prod-ref-devops.yaml
