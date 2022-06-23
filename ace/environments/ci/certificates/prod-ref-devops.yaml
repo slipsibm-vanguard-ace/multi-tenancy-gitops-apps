@@ -1,0 +1,28 @@
+apiVersion: v1
+items:
+- apiVersion: cert-manager.io/v1
+  kind: Certificate
+  metadata:
+    name: prod-ref-devsops
+  spec:
+    commonName: appdomain.cloud
+    dnsNames:
+    - '*.itzroks-060000gtqm-o0aibj-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-south.containers.appdomain.cloud'
+    isCA: true
+    issuerRef:
+      kind: Issuer
+      name: prod-ref-ss
+    secretName: prod-ref-devops-tls-key-pair
+    subject:
+      countries:
+      - UK
+      localities:
+      - London
+      organizationalUnits:
+      - Assets and Architecture, DevOps
+      organizations:
+      - IBM
+      provinces:
+      - London
+kind: List
+metadata: {}
