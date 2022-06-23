@@ -61,3 +61,4 @@ resources:
  - secrets/ibm-entitlement-key-secret.yaml
  - certificates/prod-ref-ss-ca.yaml
  - certificates/prod-ref-devops.yaml
+ - secrets/gitops-webhook-token.yaml
