@@ -50,7 +50,7 @@ resources:
 # - tasks/ibm-jmeter-performance-test.yaml
  - tasks/resolve-props.yaml
 # - triggerbindings/ace-integration-server.yaml
-# - triggertemplates/ace-integration-server.yaml
+ - triggertemplates/ace-integration-server.yaml
 # ###### Added Sealed Secrets
 
  - secrets/github-user-token-secret-slipsnotibm.yaml
