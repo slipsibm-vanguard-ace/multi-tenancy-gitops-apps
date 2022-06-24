@@ -30,7 +30,7 @@ spec:
       description: "Body of pull request"
     - name: github-pr-token-secret-name
       type: string
-      default: cicd-acme
+      default: slipsnotibm
       description: "Personal access token for CICD bot user"
 
   workspaces:
